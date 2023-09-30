@@ -502,7 +502,7 @@
 
 
 
-
+    <p id="data">Data from API will appear here.</p>
 
       <!-- 
         - #BLOG
@@ -642,8 +642,30 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8110751214513352"
      crossorigin="anonymous"></script>
+<script>
+ const apiKey = '29219200-34a7-43f2-a52b-d9fce4bcd862';
+const apiUrl = 'https://hashnode.com/settings/developer';
+
+fetch(apiUrl, {
+    method: 'GET',
+    headers: {
+        'Authorization': `Bearer ${apiKey}`,
+        'Content-Type': 'application/json'
+    }
+})
+.then(response => response.json())
+.then(data => {
+    // Handle the API response data
+    console.log(data);
+})
+.catch(error => {
+    console.error('Error:', error);
+});
+</script>
+
 
 </body>
+ 
 
 </html>
 
