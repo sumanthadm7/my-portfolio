@@ -1,18 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -185,7 +171,7 @@ body {
   transition: var(--transition-2);
 }
 
-.btn-primary.blue { background-color: var(--klein-blue); }
+.btn-primary.blue { background-color: var(--bluetiful); }
 
 .btn-primary.blue:is(:hover, :focus) { background-color: var(--orange-soda); }
 
