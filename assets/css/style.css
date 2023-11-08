@@ -22,6 +22,7 @@
   --rufous: hsl(2, 85%, 35%);
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
+  --orange: hsl(26, 94%, 48%); 
 
   /**
    * typography
@@ -292,7 +293,7 @@ body {
 .rotate-img { display: none; }
 
 .hero {
-  background-image: url("../images/hero-bg1.jpg");
+  background-image: url("../images/hero-bg1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
